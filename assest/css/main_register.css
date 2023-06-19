@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #34495e;
+}
+h1{
+    color: #f1f2f6;
+    padding-top: 20px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+h1:hover{
+    color: rgba(0, 255, 191, 0.74)
+}
+.register{
+    background: rgba(34, 9, 9, 0.384);
+    width: 410px;
+    height: 500px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 3px;
+    border: 0;
+}
+.warn{
+    color:rgba(233, 10, 10, 0.918);
+    letter-spacing: 1px;
+}
+#warn-user--incorrect,
+#warn-pass--incorrect,
+#warn-repass--incorrect{
+    display: none;
+}
+
+.password , .username{
+   height: 45px;
+   width: 200px;
+   margin: 12px;
+   outline: none;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: 2px solid #3498db;
+   background: none;
+   text-align: center;
+   color: aliceblue;
+   font-size: 14px;
+   cursor: pointer;
+   border-radius: 24px;
+   transition: 0.25s;
+   letter-spacing: 1px;
+}
+.username:hover {
+    width: 300px;
+    border-color: rgb(255, 255, 255);
+}
+
+.password:hover{
+    width: 300px;
+    border-color: rgb(255, 255, 255);
+}
+
+.btn-register{
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    margin-top: 30px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #00b894;
+    background: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.btn-register:hover{
+    background-color: #55efc4;
+}
+
+h4{
+    margin: 0;
+    color: rgb(245, 245, 245);
+    font-weight: 300;
+}
+a{
+    color: rgb(205, 50, 89);
+}
+
+.creat{
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 30px;
+    margin-left: auto;
+    text-align: center;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fab{
+    color: #ffffff;
+    font-size: 20px;
+}
+.fab:hover{
+    color: rgb(255, 0, 85);
+}
+

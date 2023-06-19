@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(245,245,245);
+}
+.grid{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.div-header{
+    color:white;
+    display: block;
+    height: 135px;
+    background-color:rgb(60,67,83);
+}
+.header__title{
+    display: flex;;
+    justify-content: center;
+}
+.header__title--page{
+    font-size: 1.9rem;
+    height: 30px;
+    color: rgb(65, 225, 212);
+}
+.navbar__list{
+    padding-left: 0;
+    
+}
+.list{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.list__link{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    font-size: 1.1rem;
+}
+.list__link--log-out{
+    font-size: 17px;
+}
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between  ;
+}
+.list__link--info{
+    border-right: 2px red;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0 200px 0;
+}
+.form1{
+    display: block;
+    text-align: center;
+    width: 310px;
+    height: 400px;
+    margin-top: 40px;   
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: #647b83;
+}
+/* .form1:hover , .form2:hover{
+    opacity: 0.875;
+} */
+
+
+
+.img{
+    width: 100%;
+    height: 10%px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    margin: 12px;
+    margin-top: 30px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #00b894;
+    background: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.btn--cart:hover{
+    background-color: #55efc4;
+}
+.btn--join:hover{
+    background-color: #34495e;
+}
+.title{
+    font-size: 1.1rem;
+    color: rgb(111 38 135 / 57%);
+    padding: 0px 10px;
+}
+.form2{
+    display: block;
+    text-align: center;
+    width: 310px;
+    height: 400px;
+    margin-top: 40px;   
+    border: 1px solid none;
+    box-sizing: border-box;
+    background-color: rgb(65 225 170 / 65%);
+    border-radius: 10px;
+}
